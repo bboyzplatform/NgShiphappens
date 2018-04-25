@@ -1,0 +1,5 @@
+/* component header styles scoped */
+
+nav.navbar .navbar-brand {
+    background-color: #00bbff;
+}
