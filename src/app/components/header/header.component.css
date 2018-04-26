@@ -1,5 +1,47 @@
 /* component header styles scoped */
 
+/* nav.navbar,
 nav.navbar .navbar-brand {
-    background-color: #00bbff;
+    background-color: $primary;
+} */
+
+nav.navbar {
+    cursor: pointer;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap
+}
+
+.navbar-brand {
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    max-width: fit-content;
+}
+
+.navbar-centered {
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.navbar-end {
+    flex: 1 1 0%;
+    box-sizing: border-box;
+}
+
+.logo>img {
+    background: #80808012;
+    /* margin: .2rem; */
+    border: 1px solid #0069af;
+    /* border-radius: 10px; */
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    max-height: 2rem;
+}
+
+a.logo:hover img {
+    opacity: 0.75;
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
 }

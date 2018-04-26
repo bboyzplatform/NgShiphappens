@@ -1,21 +1,26 @@
 <!-- navbar -->
 <header>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar has-background-info" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <!-- logo -->
-      <a class="navbar-item" href="https://bulma.io">
+      <a class="navbar-item logo" href="/">
         <img src="../assets/logo.png" alt="Oh, monkey cheat!">
       </a>
-      <!-- center input -->
+      <!-- right menu -->
+    </div>
+    <!-- center input -->
+    <div class="navbar-centered">
       <div class="control navbar-item">
         <input class="input" type="text">
       </div>
-      <!-- right menu -->
-      <a class="navbar-burger" role="button" aria-expanded="false" aria-label="menu">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
+    </div>
+    <!-- right block -->
+    <div class="navbar-end">
+      <div class="navbar-item has-dropdown is-active">
+        <a class="navbar-link">
+          menu
+        </a>
+      </div>
     </div>
   </nav>
 </header>
