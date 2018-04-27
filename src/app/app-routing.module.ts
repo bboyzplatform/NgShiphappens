@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
-import { PasswordlessAuthComponent } from './components/passwordless-auth/passwordless-auth.component';
+//import { PasswordlessAuthComponent } from './components/passwordless-auth/passwordless-auth.component';
 
 
 const routes: Routes = [
-  { path: 'login', component: PasswordlessAuthComponent },
+  /* { path: 'login', component: PasswordlessAuthComponent },; */
   {
     path: 'gameplay',
     component: AppComponent
