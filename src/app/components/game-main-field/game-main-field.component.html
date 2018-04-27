@@ -1,0 +1,20 @@
+<!-- main app fields -->
+<div>
+  <div class="container is-fluid">
+    <div class="notification">
+      This container is
+      <strong>fluid</strong>: it will have a 20px gap on either side, on any viewport size.
+    </div>
+  </div>
+
+  <div class="container is-fluid">
+    <div class="notification">
+      This container is
+      <strong>fluid</strong>: it will have a 20px gap on either side, on any viewport size.
+    </div>
+  </div>
+  <h2>{{ message$ | async }}</h2>
+
+  <button (click)="spanishMessage()">Spanish</button>
+  <button (click)="frenchMessage()">French</button>
+</div>
